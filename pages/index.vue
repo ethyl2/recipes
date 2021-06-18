@@ -9,13 +9,27 @@
     "
     style="background: url(images/food_bowl.jpg)"
   >
-    <div
-      class="container rounded shadow w-1/2"
-      style="background: rgba(255, 255, 255, 0.75)"
-    >
+    <div class="container rounded shadow w-1/2 bg-opacity-75 bg-white">
       <h1 class="text-3xl font-bold text-center p-4 md:p-12 md:text-9xl">
         favorite recipes
       </h1>
+      <div class="flex items-center justify-center w-full">
+        <nuxt-link
+          class="
+            mx-auto
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            m-2
+            bg-white bg-opacity-80
+            text-xl
+          "
+          to="/desserts/brownies"
+          >Brownies</nuxt-link
+        >
+      </div>
     </div>
   </div>
 </template>
