@@ -13,21 +13,32 @@
       <h1 class="text-3xl font-bold text-center p-4 md:p-12 md:text-9xl">
         favorite recipes
       </h1>
-      <div class="flex items-center justify-center w-full">
+      <div class="flex items-center justify-center w-full space-x-4 mb-6">
         <nuxt-link
           class="
-            mx-auto
             px-3
             font-bold
             py-1
             border border-black
             rounded
-            m-2
             bg-white bg-opacity-80
             text-xl
           "
           to="/desserts/brownies"
           >Brownies</nuxt-link
+        >
+        <nuxt-link
+          class="
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl
+          "
+          to="/desserts/chocolate-chip-cookies"
+          >Chocolate Chip Cookies</nuxt-link
         >
       </div>
     </div>
