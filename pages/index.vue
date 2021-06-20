@@ -9,11 +9,11 @@
     "
     style="background: url(images/food_bowl.jpg)"
   >
-    <div class="container rounded shadow w-1/2 bg-opacity-75 bg-white">
+    <div class="container rounded shadow p-4 w-1/2 bg-opacity-75 bg-white">
       <h1 class="text-3xl font-bold text-center p-4 md:p-12 md:text-9xl">
-        favorite recipes
+        Favorite Recipes
       </h1>
-      <div class="flex items-center justify-center w-full space-x-4 mb-6">
+      <div class="flex items-stretch justify-center w-full space-x-4 mb-6">
         <nuxt-link
           class="
             px-3
@@ -23,6 +23,9 @@
             rounded
             bg-white bg-opacity-80
             text-xl
+            flex
+            items-center
+            justify-center
           "
           to="/desserts/brownies"
           >Brownies</nuxt-link
@@ -35,7 +38,7 @@
             border border-black
             rounded
             bg-white bg-opacity-80
-            text-xl
+            text-xl text-center
           "
           to="/desserts/chocolate-chip-cookies"
           >Chocolate Chip Cookies</nuxt-link
