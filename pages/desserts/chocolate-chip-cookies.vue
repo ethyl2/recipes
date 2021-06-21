@@ -1,19 +1,11 @@
 <template>
-  <div style="background: url(/images/chocolate.jpg)">
+  <div style="background: url(/images/chocolate.jpg)" class="min-h-screen">
     <header>
       <h1 class="text-6xl text-center font-bold py-8 text-white tracking-wide">
         Chocolate Chip Cookies
       </h1>
     </header>
-    <div
-      class="
-        container
-        mx-auto
-        min-h-screen
-        flex flex-col
-        md:flex-row md:space-x-4
-      "
-    >
+    <div class="container mx-auto flex flex-col md:flex-row md:space-x-4">
       <div class="py-4 mx-4 md:mx-auto md:w-1/2 md:py-0">
         <img
           class="w-full h-auto rounded shadow"
@@ -58,7 +50,5 @@
 </template>
 
 <script>
-export default {
-  name: 'Brownies',
-}
+export default {}
 </script>

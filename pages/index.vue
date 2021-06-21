@@ -9,8 +9,19 @@
     "
     style="background: url(images/food_bowl.jpg)"
   >
-    <div class="container rounded shadow p-4 w-1/2 bg-opacity-75 bg-white">
-      <h1 class="text-3xl font-bold text-center p-4 md:p-12 md:text-9xl">
+    <div
+      class="container rounded shadow p-4 w-3/4 bg-opacity-75 bg-white lg:w-1/2"
+    >
+      <h1
+        class="
+          text-3xl
+          font-bold
+          text-center
+          p-4
+          md:p-12 md:text-9xl
+          lg:text-3xl
+        "
+      >
         Favorite Recipes
       </h1>
       <div class="flex items-stretch justify-center w-full space-x-4 mb-6">
@@ -42,6 +53,19 @@
           "
           to="/desserts/chocolate-chip-cookies"
           >Chocolate Chip Cookies</nuxt-link
+        >
+        <nuxt-link
+          class="
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl text-center
+          "
+          to="/sides/apple-dip"
+          >Apple Dip</nuxt-link
         >
       </div>
     </div>
