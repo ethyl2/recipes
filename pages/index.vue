@@ -67,6 +67,19 @@
           to="/sides/apple-dip"
           >Apple Dip</nuxt-link
         >
+        <nuxt-link
+          class="
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl text-center
+          "
+          to="/breads/olga-bread"
+          >Olga Bread</nuxt-link
+        >
       </div>
     </div>
   </div>

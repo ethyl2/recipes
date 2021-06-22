@@ -10,7 +10,7 @@
         <img
           class="w-full h-auto rounded shadow"
           src="/images/apple-slices.jpg"
-          alt="chocolate chip cookies"
+          alt="apple slices"
         />
       </div>
       <div
