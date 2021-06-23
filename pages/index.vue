@@ -24,7 +24,18 @@
       >
         Favorite Recipes
       </h1>
-      <div class="flex items-stretch justify-center w-full space-x-4 mb-6">
+      <div
+        class="
+          flex flex-col
+          items-stretch
+          justify-center
+          w-full
+          space-y-4
+          md:space-y-0 md:space-x-4
+          mb-6
+          md:flex-row
+        "
+      >
         <nuxt-link
           class="
             px-3
@@ -50,6 +61,9 @@
             rounded
             bg-white bg-opacity-80
             text-xl text-center
+            flex
+            items-center
+            justify-center
           "
           to="/desserts/chocolate-chip-cookies"
           >Chocolate Chip Cookies</nuxt-link
@@ -79,6 +93,19 @@
           "
           to="/breads/olga-bread"
           >Olga Bread</nuxt-link
+        >
+        <nuxt-link
+          class="
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl text-center
+          "
+          to="/sauces/cream-cheese-alfredo"
+          >Alfredo Sauce</nuxt-link
         >
       </div>
     </div>
