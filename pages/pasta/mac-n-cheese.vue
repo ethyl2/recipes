@@ -9,8 +9,8 @@
       <div class="py-4 mx-4 md:mx-auto md:w-1/2 md:py-0">
         <img
           class="w-full h-auto rounded shadow"
-          src="/images/pasta.jpg"
-          alt="pasta with sauce"
+          src="/images/mac-n-cheese.jpg"
+          alt="mac-n-cheese"
         />
       </div>
       <div
@@ -31,11 +31,14 @@
         <div>
           <h2 class="text-2xl font-bold mb-4">Directions</h2>
           <ol class="list-decimal list-inside font-medium">
-            <li>Melt butter in a saucepan, over medium heat.</li>
-            <li>Add cream cheese, whisking until pretty smooth.</li>
-            <li>Slowly add milk while whisking.</li>
-            <li>Add Parmesan cheese, garlic powder and pepper.</li>
-            <li>Continue to cook until it is nice and creamy.</li>
+            <li>
+              Add the uncooked macaroni, broth, butter, hot sauce, and garlic
+              powder to the Instant Pot.
+            </li>
+            <li>Cook on manual, high pressure for 5 minutes.</li>
+            <li>Do a quick release.</li>
+            <li>Add milk.</li>
+            <li>Gradually add and stir in cheeses.</li>
           </ol>
         </div>
       </div>
@@ -44,6 +47,6 @@
 </template>
 <script>
 export default {
-  name: 'AlfredoSauce',
+  name: 'MacNCheese',
 }
 </script>
