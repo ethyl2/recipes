@@ -1,5 +1,7 @@
 # recipes
 
+Deployed at https://heathers-recipes.herokuapp.com/
+
 ## Build Setup
 
 ```bash
@@ -18,3 +20,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+---
+
+Deploying Nuxt on Heroku: [docs](https://nuxtjs.org/docs/2.x/deployment/heroku-deployment)
