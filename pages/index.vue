@@ -30,10 +30,8 @@
           items-stretch
           justify-center
           w-full
-          space-y-4
-          md:space-y-0 md:space-x-4
           mb-6
-          md:flex-row
+          md:flex-row md:flex-wrap
         "
       >
         <nuxt-link
@@ -48,6 +46,9 @@
             flex
             items-center
             justify-center
+            mb-2
+            md:m-2
+            hover:bg-black hover:text-white
           "
           to="/desserts/brownies"
           >Brownies</nuxt-link
@@ -60,10 +61,13 @@
             border border-black
             rounded
             bg-white bg-opacity-80
-            text-xl text-center
+            text-xl
             flex
             items-center
             justify-center
+            md:m-2
+            hover:bg-black hover:text-white
+            mb-2
           "
           to="/desserts/chocolate-chip-cookies"
           >Chocolate Chip Cookies</nuxt-link
@@ -76,7 +80,13 @@
             border border-black
             rounded
             bg-white bg-opacity-80
-            text-xl text-center
+            text-xl
+            flex
+            items-center
+            justify-center
+            md:m-2
+            hover:bg-black hover:text-white
+            mb-2
           "
           to="/sides/apple-dip"
           >Apple Dip</nuxt-link
@@ -89,7 +99,13 @@
             border border-black
             rounded
             bg-white bg-opacity-80
-            text-xl text-center
+            text-xl
+            flex
+            items-center
+            justify-center
+            md:m-2
+            hover:bg-black hover:text-white
+            mb-2
           "
           to="/breads/olga-bread"
           >Olga Bread</nuxt-link
@@ -102,10 +118,35 @@
             border border-black
             rounded
             bg-white bg-opacity-80
-            text-xl text-center
+            text-xl
+            flex
+            items-center
+            justify-center
+            md:m-2
+            hover:bg-black hover:text-white
+            mb-2
           "
           to="/sauces/cream-cheese-alfredo"
           >Alfredo Sauce</nuxt-link
+        >
+        <nuxt-link
+          class="
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl
+            flex
+            items-center
+            justify-center
+            md:m-2
+            hover:bg-black hover:text-white
+            mb-2
+          "
+          to="/pasta/mac-n-cheese"
+          >Mac-n-Cheese</nuxt-link
         >
       </div>
     </div>
