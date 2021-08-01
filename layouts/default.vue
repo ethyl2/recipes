@@ -1,5 +1,42 @@
 <template>
   <div>
+    <header
+      class="
+        flex flex-row
+        items-center
+        justify-between
+        bg-black
+        py-2
+        border-b-4 border-white
+      "
+    >
+      <a href="/" class="rounded p-1 bg-white ml-4 hover:bg-gray-400">
+        <img
+          src="/images/fork-and-spoon.png"
+          alt="Favorite Recipes Logo"
+          class="rounded h-12"
+        />
+      </a>
+      <h1
+        class="
+          bg-black
+          text-white
+          font-bold
+          py-4
+          text-center text-xl
+          md:text-4xl
+        "
+      >
+        Favorite Recipes
+      </h1>
+      <a href="/" class="rounded p-1 bg-white mr-4 invisible hover:bg-gray-400">
+        <img
+          src="/images/fork-and-spoon.png"
+          alt="Favorite Recipes Logo"
+          class="rounded h-12"
+        />
+      </a>
+    </header>
     <Nuxt />
   </div>
 </template>

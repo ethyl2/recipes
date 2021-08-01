@@ -43,6 +43,6 @@ export default {
   build: {},
 
   eslint: {
-    fix: true
-  }
+    fix: true,
+  },
 }
