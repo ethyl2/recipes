@@ -7,7 +7,7 @@
       justify-center
       bg-contain bg-center bg-no-repeat
     "
-    style="background: url(images/food_bowl.jpg)"
+    style="background: url(images/food_bowl.jpg) no-repeat center center fixed"
   >
     <div
       class="container rounded shadow p-4 w-3/4 bg-opacity-75 bg-white lg:w-1/2"
