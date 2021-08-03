@@ -1,5 +1,8 @@
 <template>
-  <div style="background: url(/images/dry-pasta.jpg)" class="min-h-screen">
+  <div
+    style="background: url(/images/dry-pasta.jpg) no-repeat center center fixed"
+    class="min-h-screen"
+  >
     <header>
       <h1 class="text-6xl text-center font-bold py-8 text-white tracking-wide">
         Alfredo Sauce (Made with Cream Cheese)

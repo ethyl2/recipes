@@ -148,6 +148,25 @@
           to="/pasta/mac-n-cheese"
           >Mac-n-Cheese</nuxt-link
         >
+        <nuxt-link
+          class="
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl
+            flex
+            items-center
+            justify-center
+            md:m-2
+            hover:bg-black hover:text-white
+            mb-2
+          "
+          to="/breakfast/granola"
+          >Granola</nuxt-link
+        >
       </div>
     </div>
   </div>

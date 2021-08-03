@@ -1,5 +1,7 @@
 <template>
-  <div style="background: url(/images/chocolate.jpg)">
+  <div
+    style="background: url(/images/chocolate.jpg) no-repeat center center fixed"
+  >
     <header>
       <h1 class="text-6xl text-center font-bold py-8 text-white tracking-wide">
         Brownies
