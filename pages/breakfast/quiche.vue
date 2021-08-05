@@ -74,6 +74,6 @@
 
 <script>
 export default {
-  name: 'Brownies',
+  name: 'Quiche',
 }
 </script>

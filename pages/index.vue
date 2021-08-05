@@ -167,6 +167,44 @@
           to="/breakfast/granola"
           >Granola</nuxt-link
         >
+        <nuxt-link
+          class="
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl
+            flex
+            items-center
+            justify-center
+            md:m-2
+            hover:bg-black hover:text-white
+            mb-2
+          "
+          to="/breakfast/quiche"
+          >Quiche</nuxt-link
+        >
+        <nuxt-link
+          class="
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl
+            flex
+            items-center
+            justify-center
+            md:m-2
+            hover:bg-black hover:text-white
+            mb-2
+          "
+          to="/breakfast/breakfast-casserole"
+          >Breakfast Casserole</nuxt-link
+        >
       </div>
     </div>
   </div>
