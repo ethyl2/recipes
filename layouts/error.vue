@@ -17,11 +17,7 @@
     <NuxtLink to="/" class="underline font-bold"
       >Let's go back to the home page!</NuxtLink
     >
-    <img
-      src="/images/eggs.jpg"
-      alt="eggs with confused faces"
-      class="rounded"
-    />
+    <img src="/images/egg-faces.jpg" alt="eggs with faces" class="rounded" />
   </div>
 </template>
 
