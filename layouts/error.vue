@@ -8,7 +8,7 @@
       items-center
       justify-start
       pt-4
-      md:justify-center
+      md:pt-16
       px-4
       md:px-auto
       mx-auto
@@ -24,7 +24,7 @@
     <img
       src="/images/egg-faces.jpg"
       alt="eggs with faces"
-      class="rounded pt-4"
+      class="rounded pt-4 mx-auto md:w-1/2"
     />
   </div>
 </template>
