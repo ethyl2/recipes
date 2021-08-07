@@ -10,7 +10,17 @@
     style="background: url(images/food_bowl.jpg) no-repeat center center fixed"
   >
     <div
-      class="container rounded shadow p-4 w-3/4 bg-opacity-75 bg-white lg:w-1/2"
+      class="
+        container
+        rounded
+        shadow
+        p-4
+        w-3/4
+        bg-opacity-75 bg-white
+        my-4
+        md:my-auto
+        lg:w-1/2
+      "
     >
       <h1
         class="
@@ -204,6 +214,25 @@
           "
           to="/breakfast/breakfast-casserole"
           >Breakfast Casserole</nuxt-link
+        >
+        <nuxt-link
+          class="
+            px-3
+            font-bold
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl
+            flex
+            items-center
+            justify-center
+            md:m-2
+            hover:bg-black hover:text-white
+            mb-2
+          "
+          to="/soups/egg-drop-soup"
+          >Egg Drop Soup</nuxt-link
         >
       </div>
     </div>
