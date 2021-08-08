@@ -44,7 +44,7 @@
               {{ ingredient }}
             </li>
           </ul>
-          <div v-if="recipe.subRecipe">
+          <div v-if="recipe.subRecipe" class="md:pl-6">
             <h3 class="text-lg font-bold mb-4">
               {{ recipe.subRecipe.name }}
             </h3>
