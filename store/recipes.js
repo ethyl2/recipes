@@ -4,6 +4,7 @@ export const state = () => ({
       id: 1,
       name: 'Olga Bread',
       slug: 'olga-bread',
+      categories: ['breads'],
       bg_img: 'breads.jpg',
       featured_img: 'olga-bread.jpg',
       ingredients: [
@@ -29,6 +30,7 @@ export const state = () => ({
       id: 2,
       name: 'Breakfast Casserole',
       slug: 'breakfast-casserole',
+      categories: ['breakfast'],
       bg_img: 'colorful-eggs.jpg',
       featured_img: 'breakfast-casserole.jpg',
       ingredients: [
@@ -61,6 +63,144 @@ export const state = () => ({
             inserted near the center comes clean.
           `,
         `Let stand 5 min. before serving.`,
+      ],
+    },
+    {
+      id: 3,
+      name: 'Granola',
+      slug: 'granola',
+      categories: ['breakfast'],
+      bg_img: 'wheat.jpg',
+      featured_img: 'granola.jpg',
+      ingredients: [
+        '1/2 c. butter, softened',
+        '1 c. brown sugar',
+        '1/3 c. water or juice',
+        '1 tsp. vanilla',
+        '1/2 tsp. salt',
+        '1/2 tsp. cinnamon',
+        '1/2 tsp. cardamom (or nutmeg or allspice)',
+        '1 1/4 c. wheat flour',
+        '1 1/3 c. coconut',
+        '1 c. chopped/sliced almonds, walnuts, pecans, or a mixture',
+      ],
+      steps: [
+        `Preheat oven to 300 degrees F.`,
+        `
+              In a saucepan over med. heat, combine sugar, butter, and water.
+            `,
+        `Heat until mixture is melted and bubbly.`,
+        `Remove from heat and add vanilla.`,
+        `Pour liquid mixture over dry mixture and stir well to coat.`,
+        `Let sit 10 min.`,
+        `
+              Spread on 2 baking sheets. Put one on the upper rack and one on
+              the bottom rack of the oven.
+            `,
+        `
+              Bake for 15 min. Stir to break up the mixture into medium-sized
+              clumps. Switch the position of the 2 baking sheets.
+            `,
+        `
+              Bake for 15 min more.. Stir and switch the position of the 2
+              baking sheets again.
+            `,
+        `Bake for 15 min or until uniformly golden brown and dry.`,
+        `Cool completely and store in an air-tight container.`,
+      ],
+    },
+    {
+      id: 4,
+      name: 'Quiche',
+      slug: 'quiche',
+      categories: ['breakfast', 'entrees'],
+      bg_img: 'eggs.jpg',
+      featured_img: 'quiche.jpg',
+      ingredients: [
+        `1 refrigerated or frozen pie crust (or make your own)`,
+        `1/2 onion, chopped`,
+        `
+              Other filling ingredients, like mushrooms, peppers, regular/vegan
+              bacon or sausage, etc.
+            `,
+        `1 c. shredded cheese`,
+        `3 eggs`,
+        `3/4 c. milk`,
+        `1/2 tsp. salt`,
+        `1/8 tsp. pepper`,
+      ],
+      steps: [
+        `Preheat oven to 425 degrees F.`,
+        `If crust isn't in a pan, press crust into a 9-inch pan.`,
+        `Bake crust for 5 min.`,
+        `Remove, and reduce oven temperature to 375 degrees F.`,
+        `
+              If using bacon, cook bacon until crisp. Remove, set aside, and
+              crumble. Discard all but about 1 T. of bacon drippings.
+            `,
+        `
+              Use the drippings in the pan (or oil) to saute the onion and other
+              filling ingredients, until soft.
+            `,
+        `
+              Sprinkle 1/2 c. cheese in the pie shell. Spread filling
+              ingredients on top.
+            `,
+        `
+              Beat eggs, milk, salt, and pepper together. Pour mixture in pie
+              shell.
+            `,
+        `Sprinkle with remaining 1/2 c. cheese.`,
+        `Bake 30-35 min., or until golden brown.`,
+      ],
+    },
+    {
+      id: 5,
+      name: 'Brownies',
+      slug: 'brownies',
+      categories: ['desserts', 'bars'],
+      bg_img: 'chocolate.jpg',
+      featured_img: 'brownies.jpg',
+      ingredients: [
+        '1/2 c. butter, softened',
+        '1/2 c. oil',
+        '2 c. sugar',
+        '1/2 c. cocoa',
+        '1 tsp. vanilla',
+        '4 eggs',
+        '1 1/4 c. flour',
+        '1/2 tsp. baking powder',
+        '1/2 tsp. salt',
+      ],
+      subRecipe: {
+        name: 'Peanut Butter Filling (optional)',
+        ingredients: [
+          '3/4 c. peanut butter',
+          '1 c. powdered sugar',
+          '2 tsp. vanilla',
+          '2 T. milk',
+        ],
+      },
+      steps: [
+        `Preheat oven to 350 degrees F.`,
+        `Grease a 9" x 13" pan.`,
+        `
+              In a large bowl, add and mix the ingredients in the order listed.
+            `,
+        `
+              If you want peanut butter filling, mix the filling ingredients in
+              a separate bowl.
+            `,
+        `Pour all of the batter into the pan if not using filling.`,
+        `
+              Otherwise, pour 1/2 the batter in the pan. Then put the filling in
+              clumps on top.
+            `,
+        `Then pour the rest of the batter in and smooth.`,
+        `
+              Bake for about 25-32 min., depending on how gooey you like your
+              brownies.
+            `,
       ],
     },
   ],
