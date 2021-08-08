@@ -4,11 +4,29 @@
     class="min-h-screen"
   >
     <header>
-      <h1 class="text-6xl text-center font-bold py-8 text-white tracking-wide">
+      <h1
+        class="
+          text-3xl text-center
+          font-bold
+          py-8
+          text-white
+          tracking-wide
+          md:text-6xl
+        "
+      >
         {{ recipe.name }}
       </h1>
     </header>
-    <div class="container mx-auto flex flex-col md:flex-row md:space-x-4">
+    <div
+      class="
+        container
+        mx-auto
+        flex flex-col
+        pb-4
+        items-start
+        md:flex-row md:space-x-4 md:pb-16
+      "
+    >
       <div class="py-4 mx-4 md:mx-auto md:w-1/2 md:py-0">
         <img
           class="w-full h-auto rounded shadow"
@@ -63,7 +81,6 @@ export default {
   },
   computed: {
     recipe() {
-      // return this.entries.find((entry) => entry.number === this.currentDay)
       return this.$store.state.recipes.all.find(
         (recipe) => recipe.slug === this.currentRecipe
       )
