@@ -40,7 +40,7 @@
       >
         <h2 class="text-2xl font-bold mb-4">Ingredients</h2>
         <div class="flex flex-col pb-6 md:flex-row md:justify-between">
-          <ul id="ingredients" class="mb-4 font-medium">
+          <ul id="ingredients" class="mb-4 font-medium space-y-2">
             <li v-for="(ingredient, index) in recipe.ingredients" :key="index">
               {{ ingredient }}
             </li>
@@ -49,7 +49,7 @@
             <h3 id="subrecipe-name" class="text-lg font-bold mb-4">
               {{ recipe.subRecipe.name }}
             </h3>
-            <ul id="subrecipe-ingredients" class="font-medium">
+            <ul id="subrecipe-ingredients" class="font-medium space-y-2">
               <li
                 v-for="(ingredient, index) in recipe.subRecipe.ingredients"
                 :key="`subRecipe-ingredient-${index}`"
@@ -61,7 +61,7 @@
         </div>
         <div>
           <h2 class="text-2xl font-bold mb-4">Directions</h2>
-          <ol id="steps" class="list-decimal list-inside font-medium">
+          <ol id="steps" class="list-decimal list-inside font-medium space-y-2">
             <li v-for="(step, index) in recipe.steps" :key="`step-${index}`">
               {{ step }}
             </li>
