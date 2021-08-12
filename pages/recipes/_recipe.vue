@@ -70,10 +70,25 @@
         <div></div>
       </div>
     </div>
-    <div class="flex items-center justify-center pb-4 md:pb-16">
+    <div class="flex items-center justify-center space-x-6 pb-4 md:pb-16">
+      <button
+        v-if="recipe.notes"
+        id="show-modal"
+        class="
+          text-center
+          bg-white
+          rounded
+          px-3
+          py-2
+          font-bold
+          hover:bg-black hover:text-white
+        "
+        @click="showModal = true"
+      >
+        Notes
+      </button>
       <button
         class="
-          mx-auto
           text-center
           bg-white
           rounded
@@ -86,15 +101,26 @@
       >
         Print Recipe
       </button>
+      <!-- use the modal component, pass in the prop -->
     </div>
+    <modal v-if="showModal && recipe.notes" @close="showModal = false">
+      <h3 slot="header" class="font-bold text-xl text-teal-400">
+        Why I Love This Recipe:
+      </h3>
+      <p slot="body">{{ recipe.notes }}</p>
+    </modal>
   </div>
 </template>
 <script>
 export default {
   name: 'Recipe',
+  components: {
+    Modal: () => import('~/components/modal'),
+  },
   data() {
     return {
       currentRecipe: this.$route.params.recipe,
+      showModal: false,
     }
   },
   computed: {
