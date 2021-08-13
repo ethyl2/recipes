@@ -4,6 +4,11 @@
       <div class="modal-wrapper">
         <div class="modal-container">
           <div class="modal-header">
+            <div class="flex justify-end">
+              <button class="hover:bg-gray-400 rounded" @click="$emit('close')">
+                ❌
+              </button>
+            </div>
             <slot name="header">
               <!-- default header  -->
             </slot>
@@ -18,9 +23,6 @@
           <div class="modal-footer">
             <slot name="footer">
               <!-- default footer -->
-              <button class="modal-default-button" @click="$emit('close')">
-                ❌
-              </button>
             </slot>
           </div>
         </div>
@@ -71,11 +73,6 @@ export default {
 
 .modal-body {
   margin: 20px 0;
-}
-
-.modal-default-button {
-  padding-bottom: 4px;
-  margin-right: 0px;
 }
 
 /*

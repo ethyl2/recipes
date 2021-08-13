@@ -25,6 +25,8 @@ export const state = () => ({
         'Flip and cook for about 10 seconds more, until mottled brown spots appear.',
         'Continue until all circles are cooked.',
       ],
+      notes:
+        "We love to make this to eat with hummus and couscous. It brings back memories of one of my very favorite people, Susan Mendenhall, who put this recipe in our congregation's cookbook.",
     },
     {
       id: 2,
@@ -64,6 +66,7 @@ export const state = () => ({
           `,
         `Let stand 5 min. before serving.`,
       ],
+      notes: 'This is a great way to feed a crowd for breakfast or brunch.',
     },
     {
       id: 3,
@@ -108,6 +111,8 @@ export const state = () => ({
         `Bake for 15 min or until uniformly golden brown and dry.`,
         `Cool completely and store in an air-tight container.`,
       ],
+      notes:
+        "I used to make this all of the time for my husband's breakfast. Sometimes I will add chocolate- or yogurt-covered raisins to it, once it's cool.",
     },
     {
       id: 4,
@@ -153,6 +158,8 @@ export const state = () => ({
         `Sprinkle with remaining 1/2 c. cheese.`,
         `Bake 30-35 min., or until golden brown.`,
       ],
+      notes:
+        "One of my sons doesn't like dishes made with eggs (like scrambled eggs or breakfast burritos), but he loves this quiche. Go figure.",
     },
     {
       id: 5,
@@ -202,6 +209,8 @@ export const state = () => ({
               brownies.
             `,
       ],
+      notes:
+        'Adding the peanut butter filling makes this VERY extremely rich, and so very yummy.',
     },
     {
       id: 6,
@@ -230,6 +239,8 @@ export const state = () => ({
         'Add the chocolate chips.',
         'Bake drops of dough on ungreased cookie sheets and bake for about 8-9 min.',
       ],
+      notes:
+        "My mom's recipe. We've used it for years. One of my favorite desserts is to use this dough to make a pizookie -- a large cookie baked in a cast iron pan, served warm with ice cream, whipped cream, and caramel or chocolate syrup.",
     },
     {
       id: 7,
@@ -259,6 +270,8 @@ export const state = () => ({
         `Add milk.`,
         `Gradually add and stir in cheeses.`,
       ],
+      notes:
+        'My sister Mary introduced us to this recipe. It works so well in the Instant Pot!',
     },
     {
       id: 8,
@@ -282,6 +295,8 @@ export const state = () => ({
         'Add Parmesan cheese, garlic powder and pepper.',
         'Continue to cook until it is nice and creamy.',
       ],
+      notes:
+        'Definitely packs the calories, but is so delicious. One of my favorite things is to use it as pizza sauce. Second favorite is as a topping for tortellini.',
     },
     {
       id: 9,
@@ -302,6 +317,8 @@ export const state = () => ({
         'Sprinkle walnuts around the edges.',
         'Serve with apple wedges.',
       ],
+      notes:
+        'When we have a bunch of apples that need to get eaten, this is a great way to use them up.',
     },
     {
       id: 10,
@@ -382,6 +399,8 @@ export const state = () => ({
         'Cover and allow to rise.',
         'Uncover and bake at 375 degrees F for 8-12 min., or until golden brown.',
       ],
+      notes:
+        "I wouldn't be able to count the number of times I've made this recipe! Our bread machine is so handy!",
     },
     {
       id: 12,
