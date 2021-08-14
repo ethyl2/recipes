@@ -6,14 +6,10 @@
     <header>
       <h1
         id="recipe-name"
-        class="
-          text-3xl text-center
-          font-bold
-          py-8
-          text-white
-          tracking-wide
-          md:text-6xl
-        "
+        class="text-3xl text-center font-bold py-8 tracking-wide md:text-6xl"
+        :class="[
+          recipe.titleColor ? `text-${recipe.titleColor}` : 'text-white',
+        ]"
       >
         {{ recipe.name }}
       </h1>
