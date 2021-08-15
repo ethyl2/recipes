@@ -544,15 +544,17 @@ export const state = () => ({
         '1/4 c. chopped cilantro',
       ],
       steps: [
-        `Add all ingredients, except for cheese and cilantro, to instant pot.`,
+        `Combine all ingredients in the instant pot, except for cheese and cilantro.`,
         'Cook at high pressure for 15 min.',
         'Allow pressure to naturally release for 15 min., and then release remaining pressure.',
-        'Remove cover and add 1/2 of the cheese.',
-        'Put the rest of the cheese and top and recover.',
+        'Remove lid and add 1/2 of the cheese.',
+        'Put the rest of the cheese on top and put the lid back on.',
         'Let stand 5 min.',
         'Sprinkle with cilantro and enjoy.',
       ],
       titleColor: 'black',
+      notes:
+        "This is a goto recipe quite often at my house. I love the fact that is uses brown rice and lentils -- healthy stuff! We call it 'taco dip' and eat it with tortilla chips.",
     },
   ],
 })
