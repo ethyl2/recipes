@@ -556,5 +556,31 @@ export const state = () => ({
       notes:
         "This is a goto recipe quite often at my house. I love the fact that is uses brown rice and lentils -- healthy stuff! We call it 'taco dip' and eat it with tortilla chips.",
     },
+    {
+      id: 17,
+      name: 'Tomatillo Salsa',
+      slug: 'tomatillo-salsa',
+      categories: ['sauces'],
+      bg_img: 'tomatillos.jpg',
+      featured_img: 'tomatillo-salsa.jpg',
+      ingredients: [
+        '6 tomatillos',
+        '1-2 Serrano peppers',
+        '1 bunch cilantro (Chop off the "trunk" stems)',
+        '1 T. garlic',
+        '1 onion',
+        '2 avocados',
+        '1/4 tsp. salt',
+        '1 T. lime juice',
+      ],
+      steps: [
+        `Boil the tomatillos and peppers while preparing the rest of the ingredients.`,
+        'Add the rest of the ingredients to a blender.',
+        'Then add the boiled tomatillos and peppers.',
+        'Blend everything together.',
+      ],
+      notes:
+        "We call this 'Martha Salsa' because my sister Martha learned to make it in Texas and shared the recipe with us. 'Martha Tacos' are a favorite of my brother-in-law Mark -- my sister Mary says that they are just tacos with this salsa. Martha salsa makes all the difference!",
+    },
   ],
 })
