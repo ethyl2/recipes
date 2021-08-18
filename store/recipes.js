@@ -582,5 +582,29 @@ export const state = () => ({
       notes:
         "We call this 'Martha Salsa' because my sister Martha learned to make it in Texas and shared the recipe with us. 'Martha Tacos' are a favorite of my brother-in-law Mark -- my sister Mary says that they are just tacos with this salsa. Martha salsa makes all the difference!",
     },
+    {
+      id: 18,
+      name: 'Breakfast Shake',
+      slug: 'breakfast-shake',
+      categories: ['breakfast', 'drinks'],
+      bg_img: 'bananas.jpg',
+      featured_img: 'breakfast-shake.jpg',
+      ingredients: [
+        '2 or more bananas, peeled and frozen',
+        '2 T. cocoa powder',
+        '1 package Instant Breakfast powder or 2 T. protein powder (optional)',
+        '1/4 c. peanut butter',
+        '1 T. flax',
+        '2 tsp. vanilla',
+        '2-3 c. milk (regular or plant milk)',
+        '2 c. vanilla ice cream and/or yogurt',
+        '2-3 handfuls of ice',
+      ],
+      steps: [
+        `Combine all ingredients in blender.`,
+        'Add more ice for thickness; more milk to thin out.',
+      ],
+      notes: 'This is a great way to use up ripe bananas!',
+    },
   ],
 })
