@@ -28,12 +28,30 @@
           font-bold
           text-center
           p-4
-          md:p-12 md:text-9xl
+          md:pt-12 md:text-9xl
           lg:text-3xl
         "
       >
         Favorite Recipes
       </h1>
+      <div class="flex items-center justify-center">
+        <nuxt-link
+          to="/search"
+          class="
+            px-3
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl
+            mb-2
+            mx-auto
+            hover:bg-black hover:text-white
+          "
+          title="Search By Category"
+          >🔎<span class="sr-only">search</span></nuxt-link
+        >
+      </div>
       <div
         class="
           flex flex-col

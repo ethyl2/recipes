@@ -32,7 +32,7 @@ export const state = () => ({
       id: 2,
       name: 'Breakfast Casserole',
       slug: 'breakfast-casserole',
-      categories: ['breakfast'],
+      categories: ['breakfast', 'entrees', 'eggs'],
       bg_img: 'colorful-eggs.jpg',
       featured_img: 'breakfast-casserole.jpg',
       ingredients: [
@@ -118,7 +118,7 @@ export const state = () => ({
       id: 4,
       name: 'Quiche',
       slug: 'quiche',
-      categories: ['breakfast', 'entrees'],
+      categories: ['breakfast', 'entrees', 'eggs'],
       bg_img: 'eggs.jpg',
       featured_img: 'quiche.jpg',
       ingredients: [
@@ -216,7 +216,7 @@ export const state = () => ({
       id: 6,
       name: 'Chocolate Chip Cookies',
       slug: 'chocolate-chip-cookies',
-      categories: ['dessert', 'cookies'],
+      categories: ['desserts', 'cookies'],
       bg_img: 'chocolate.jpg',
       featured_img: 'chocolate-chip-cookies.jpg',
       ingredients: [
@@ -246,7 +246,7 @@ export const state = () => ({
       id: 7,
       name: 'Mac-n-Cheese (Made in the Instant Pot)',
       slug: 'mac-n-cheese',
-      categories: ['pasta', 'entrees'],
+      categories: ['pasta', 'entrees', 'instant-pot'],
       bg_img: 'dry-pasta.jpg',
       featured_img: 'mac-n-cheese.jpg',
       ingredients: [
@@ -324,7 +324,7 @@ export const state = () => ({
       id: 10,
       name: 'Egg Drop Soup',
       slug: 'egg-drop-soup',
-      categories: ['soups', 'entrees'],
+      categories: ['soups', 'entrees', 'eggs'],
       bg_img: 'pot.jpg',
       featured_img: 'egg-drop-soup.jpg',
       ingredients: [
@@ -470,7 +470,7 @@ export const state = () => ({
       id: 14,
       name: 'Vegan Crêpes',
       slug: 'vegan-crepes',
-      categories: ['breakfast'],
+      categories: ['breakfast', 'entrees'],
       bg_img: 'citrus.jpg',
       featured_img: 'crepes.jpg',
       ingredients: [
@@ -498,7 +498,7 @@ export const state = () => ({
       id: 15,
       name: 'Vegan Pancakes',
       slug: 'vegan-pancakes',
-      categories: ['breakfast'],
+      categories: ['breakfast', 'entrees'],
       bg_img: 'walnuts.jpg',
       featured_img: 'pancakes.jpg',
       ingredients: [
