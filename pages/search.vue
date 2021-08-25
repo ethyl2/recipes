@@ -7,7 +7,7 @@
       justify-center
       bg-contain bg-center bg-no-repeat
     "
-    style="background: url(images/raw-foods.jpg) no-repeat center center fixed"
+    style="background: url(images/fruitcake.jpg) no-repeat center center fixed"
   >
     <div
       class="
@@ -22,16 +22,7 @@
         lg:w-1/2
       "
     >
-      <h1
-        class="
-          text-3xl
-          font-bold
-          text-center
-          p-2
-          md:p-12 md:text-9xl
-          lg:text-3xl
-        "
-      >
+      <h1 class="text-3xl font-bold text-center p-2 md:p-6 lg:text-4xl">
         Favorite Recipes By Category
       </h1>
       <div
@@ -43,13 +34,13 @@
           md:space-y-0 md:flex-row
         "
       >
-        <label for="options" class="pr-2">Choose a category:</label>
+        <label for="options" class="pr-2 font-bold">Choose a category:</label>
 
         <select
           id="options"
           v-model="selectedCategory"
           name="options"
-          class="p-2"
+          class="p-2 rounded"
         >
           <option value="" disabled selected>Pick one of the following</option>
           <option

@@ -22,19 +22,10 @@
         lg:w-1/2
       "
     >
-      <h1
-        class="
-          text-3xl
-          font-bold
-          text-center
-          p-4
-          md:pt-12 md:text-9xl
-          lg:text-3xl
-        "
-      >
-        Favorite Recipes
+      <h1 class="text-3xl font-bold text-center p-4 md:pt-12 lg:text-3xl">
+        Welcome to Favorite Recipes
       </h1>
-      <div class="flex items-center justify-center">
+      <div class="flex items-center justify-center space-x-4">
         <nuxt-link
           to="/search"
           class="
@@ -45,11 +36,25 @@
             bg-white bg-opacity-80
             text-xl
             mb-2
-            mx-auto
             hover:bg-black hover:text-white
           "
           title="Search By Category"
           >🔎<span class="sr-only">search</span></nuxt-link
+        >
+        <nuxt-link
+          to="/submit-recipe"
+          class="
+            px-3
+            py-1
+            border border-black
+            rounded
+            bg-white bg-opacity-80
+            text-xl
+            mb-2
+            hover:bg-black hover:text-white
+          "
+          title="Send Me Your Favorite Recipe"
+          >💌<span class="sr-only">send me your recipe</span></nuxt-link
         >
       </div>
       <div
