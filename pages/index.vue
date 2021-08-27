@@ -6,6 +6,7 @@
       items-center
       justify-center
       bg-contain bg-center bg-no-repeat
+      py-4
     "
     style="background: url(images/food_bowl.jpg) no-repeat center center fixed"
   >
@@ -19,7 +20,6 @@
         bg-opacity-75 bg-white
         my-4
         md:my-auto
-        lg:w-1/2
       "
     >
       <h1 class="text-3xl font-bold text-center p-4 md:pt-12 lg:text-3xl">
