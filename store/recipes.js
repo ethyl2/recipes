@@ -4,7 +4,7 @@ export const state = () => ({
       id: 1,
       name: 'Olga Bread',
       slug: 'olga-bread',
-      categories: ['breads', 'bread machine'],
+      categories: ['breads', 'bread-machine'],
       bg_img: 'breads.jpg',
       featured_img: 'olga-bread.jpg',
       ingredients: [
@@ -246,7 +246,7 @@ export const state = () => ({
       id: 7,
       name: 'Mac-n-Cheese',
       slug: 'mac-n-cheese',
-      categories: ['pasta', 'entrees', 'instant pot'],
+      categories: ['pasta', 'entrees', 'instant-pot'],
       bg_img: 'dry-pasta.jpg',
       featured_img: 'mac-n-cheese.jpg',
       ingredients: [
@@ -359,7 +359,7 @@ export const state = () => ({
       id: 11,
       name: 'Hot Rolls',
       slug: 'hot-rolls',
-      categories: ['breads', 'bread machine'],
+      categories: ['breads', 'bread-machine'],
       bg_img: 'wheat.jpg',
       featured_img: 'rolls.jpg',
       ingredients: [
@@ -523,7 +523,7 @@ export const state = () => ({
       id: 16,
       name: 'Cheesy Southwestern Lentils & Brown Rice',
       slug: 'cheesy-lentils-and-rice',
-      categories: ['entrees', 'instant pot'],
+      categories: ['entrees', 'instant-pot'],
       bg_img: 'onions.jpg',
       featured_img: 'lentils-and-rice.jpg',
       ingredients: [
@@ -729,7 +729,7 @@ export const state = () => ({
         'Either toss with dressing, or serve dressing on the side.',
       ],
       notes: `I often have serious cravings for this salad. The feta cheese complements the sweet fruit. Sometimes we use a store-bought fruity vinaigrette instead of making it from scratch.`,
-      titleColor: 'black',
+      titleColor: 'white',
       subRecipe: {
         name: 'Candied Walnuts',
         ingredients: [
@@ -744,7 +744,7 @@ export const state = () => ({
       id: 23,
       name: 'Pizza Dough',
       slug: 'pizza-dough',
-      categories: ['breads', 'entrees', 'bread machine'],
+      categories: ['breads', 'entrees', 'bread-machine'],
       bg_img: 'dough.jpg',
       featured_img: 'pizza.jpg',
       ingredients: [

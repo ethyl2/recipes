@@ -28,8 +28,38 @@
         <img
           class="w-full h-auto rounded shadow"
           :src="`/images/${recipe.featured_img}`"
-          alt="apple slices"
+          :alt="`${recipe.name}`"
         />
+        <div
+          class="
+            hidden
+            w-full
+            flex-wrap
+            items-center
+            justify-center
+            space-x-2
+            pt-4
+            md:flex
+          "
+        >
+          <nuxt-link
+            v-for="category in recipe.categories"
+            :key="category"
+            :to="`/category/${category}`"
+            class="
+              bg-gray-600 bg-opacity-75
+              text-white
+              rounded-full
+              px-2
+              py-1
+              font-bold
+              shadow
+              hover:bg-white hover:text-black
+            "
+          >
+            {{ category.split('-').join(' ') }}
+          </nuxt-link>
+        </div>
       </div>
       <div
         class="md:w-1/2 mx-4 md:mx-auto bg-opacity-90 bg-white p-6 rounded mb-6"
@@ -97,8 +127,40 @@
       >
         Print Recipe
       </button>
-      <!-- use the modal component, pass in the prop -->
     </div>
+
+    <div
+      class="
+        w-full
+        flex flex-wrap
+        items-center
+        justify-center
+        space-x-2
+        py-4
+        border-t-4 border-white
+        bg-gray-400 bg-opacity-50
+        md:hidden
+      "
+    >
+      <nuxt-link
+        v-for="category in recipe.categories"
+        :key="category"
+        :to="`/category/${category}`"
+        class="
+          bg-black
+          text-white
+          rounded-full
+          px-2
+          py-1
+          font-bold
+          shadow
+          hover:bg-white hover:text-black
+        "
+      >
+        {{ category.split('-').join(' ') }}
+      </nuxt-link>
+    </div>
+
     <modal v-if="showModal && recipe.notes" @close="showModal = false">
       <h3 slot="header" class="font-bold text-xl text-teal-400">
         Why I Love This Recipe:

@@ -48,7 +48,7 @@
             :key="category"
             :value="category"
           >
-            {{ category }}
+            {{ category.split('-').join(' ') }}
           </option>
         </select>
       </div>
