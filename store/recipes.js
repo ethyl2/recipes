@@ -4,7 +4,7 @@ export const state = () => ({
       id: 1,
       name: 'Olga Bread',
       slug: 'olga-bread',
-      categories: ['breads'],
+      categories: ['breads', 'bread machine'],
       bg_img: 'breads.jpg',
       featured_img: 'olga-bread.jpg',
       ingredients: [
@@ -17,7 +17,7 @@ export const state = () => ({
         '1 egg',
       ],
       steps: [
-        'Combine ingredients in bread maker.',
+        `Combine ingredients in a bread machine's pan.`,
         'Use the dough setting.',
         'When the dough has about doubled in size, punch down dough and divide into 16 pieces.',
         'Roll each piece into a thin circle.',
@@ -244,9 +244,9 @@ export const state = () => ({
     },
     {
       id: 7,
-      name: 'Mac-n-Cheese (Made in the Instant Pot)',
+      name: 'Mac-n-Cheese',
       slug: 'mac-n-cheese',
-      categories: ['pasta', 'entrees', 'instant-pot'],
+      categories: ['pasta', 'entrees', 'instant pot'],
       bg_img: 'dry-pasta.jpg',
       featured_img: 'mac-n-cheese.jpg',
       ingredients: [
@@ -263,7 +263,7 @@ export const state = () => ({
       steps: [
         `
             Add the uncooked macaroni, broth, butter, hot sauce, and garlic
-            powder to the Instant Pot.
+            powder to an Instant Pot.
           `,
         `Cook on manual, high pressure for 5 minutes.`,
         `Do a quick release.`,
@@ -357,9 +357,9 @@ export const state = () => ({
     },
     {
       id: 11,
-      name: 'Hot Rolls (Bread Machine)',
+      name: 'Hot Rolls',
       slug: 'hot-rolls',
-      categories: ['breads'],
+      categories: ['breads', 'bread machine'],
       bg_img: 'wheat.jpg',
       featured_img: 'rolls.jpg',
       ingredients: [
@@ -384,8 +384,7 @@ export const state = () => ({
         ],
       },
       steps: [
-        `Add the liquid ingredients to the pan.
-            `,
+        `Add the liquid ingredients to the pan of a bread machine.`,
         `Add the dry ingredients.`,
         'Select the dough cycle.',
         'When the cycle is completed and the dough has risen sufficiently, divide the dough into 12-24 pieces.',
@@ -524,7 +523,7 @@ export const state = () => ({
       id: 16,
       name: 'Cheesy Southwestern Lentils & Brown Rice',
       slug: 'cheesy-lentils-and-rice',
-      categories: ['entrees', 'instant-pot'],
+      categories: ['entrees', 'instant pot'],
       bg_img: 'onions.jpg',
       featured_img: 'lentils-and-rice.jpg',
       ingredients: [
@@ -740,6 +739,77 @@ export const state = () => ({
           'dash of cinnamon (opt.)',
         ],
       },
+    },
+    {
+      id: 23,
+      name: 'Pizza Dough',
+      slug: 'pizza-dough',
+      categories: ['breads', 'entrees', 'bread machine'],
+      bg_img: 'dough.jpg',
+      featured_img: 'pizza.jpg',
+      ingredients: [
+        '1 c. water',
+        '2 T. olive oil or other vegetable oil',
+        '1 T. sugar or honey',
+        '3 c. flour',
+        '1 T. vital wheat gluten',
+        '1/2 tsp. salt',
+        '1 T. flax (opt.)',
+        '1/2 T. yeast',
+        'Toppings, for later',
+      ],
+      steps: [
+        `Combine ingredients in a bread machine pan.`,
+        'Select the dough setting.',
+        'Use dough when cycle is completed, or let it continue rising.',
+        'Preheat oven to 425 degrees F.',
+        'Divide dough into as many pizzas as you want.',
+        'Shape dough into desired sizes and cook in pans (such as in an oiled cast iron), for about 8 min.',
+        'Add toppings and cook for about 8 min. more.',
+        'If desired, take out of pans and cook for another minute or two.',
+        'Take pizza out of oven when the bottom of the crust is golden brown.',
+      ],
+      notes: `I like to heat some oil in my cast iron inside the oven while it is preheating. And then use about 1/2 of the dough for that pan.
+        I also like to season the crust edges with garlic powder and a little bit of kosher salt.
+        Our current favorite type of pizza is barbecue with pineapple, onions, and peppers.
+        Second favorite is white sauce with mushrooms and other veggies.`,
+    },
+    {
+      id: 24,
+      name: 'Banana Bread',
+      slug: 'banana-bread',
+      categories: ['breads', 'desserts'],
+      bg_img: 'bananas.jpg',
+      featured_img: 'banana-bread.jpg',
+      ingredients: [
+        '6 T. softened butter',
+        '2 c. sugar',
+        '3 eggs',
+        '1/2 T. vanilla extract',
+        '2 c. old bananas',
+        '1 c. yogurt (vanilla-flavored or unsweetened) or sour cream',
+        '3 c. flour',
+        '1/2 T. baking soda',
+        '1/2 T. baking powder',
+        '1/2 tsp. salt',
+        '1/2 tsp. cinnamon and/or other warm spices, (opt.)',
+        'Chopped walnuts (opt.)',
+        'Mini chocolate chips (opt.)',
+      ],
+      steps: [
+        `Preheat oven to 350 degrees F.`,
+        'Prepare muffins tins or loaf pans with either cupcake/loaf paper wrappers, or greasing them.',
+        'Cream butter and sugar.',
+        'Add eggs and vanilla.',
+        'In a blender, blend bananas and yogurt/sour cream.',
+        'Add banana mixture to butter mixture.',
+        'Beat in flour, baking soda, baking powder, and salt.',
+        'Add spices if using.',
+        'Put batter into pans.',
+        'Sprinkle walnuts and chocolate chips, if using.',
+        'Bake for about 20 min.',
+      ],
+      notes: `I highly recommend using walnuts and chocolate chips!`,
     },
   ],
 })
