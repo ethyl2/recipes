@@ -42,6 +42,17 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
+  // Tailwind configuration
+  tailwindcss: {
+    config: {
+      variants: {
+        extend: {
+          fontWeight: ['hover'],
+        },
+      },
+    },
+  },
+
   eslint: {
     fix: true,
   },
