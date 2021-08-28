@@ -7,7 +7,10 @@
       justify-center
       bg-contain bg-center bg-no-repeat
     "
-    style="background: url(images/salad-bowl.jpg) no-repeat center center fixed"
+    style="
+      background: url(images/salad-bowl.jpg) no-repeat center center fixed;
+      background-size: cover;
+    "
   >
     <div
       class="

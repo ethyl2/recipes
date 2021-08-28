@@ -8,7 +8,10 @@
       bg-contain bg-center bg-no-repeat
       py-4
     "
-    style="background: url(images/food_bowl.jpg) no-repeat center center fixed"
+    style="
+      background: url(images/food_bowl.jpg) no-repeat center center fixed;
+      background-size: cover;
+    "
   >
     <div
       class="

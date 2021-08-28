@@ -9,7 +9,7 @@
       py-4
     "
     :style="{
-      background: `url(/images/${categoryBackgroundImage}) no-repeat center center fixed`,
+      background: `url(/images/${categoryBackgroundImage}) no-repeat center center fixed; background-size: cover;`,
     }"
   >
     <div

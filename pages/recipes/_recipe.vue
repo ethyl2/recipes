@@ -1,6 +1,6 @@
 <template>
   <div
-    :style="`background: url(/images/${recipe.bg_img}) no-repeat center center fixed;`"
+    :style="`background: url(/images/${recipe.bg_img}) no-repeat center center fixed; background-size: cover`"
     class="min-h-screen"
   >
     <header>
