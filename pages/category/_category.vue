@@ -8,9 +8,7 @@
       bg-contain bg-center bg-no-repeat
       py-4
     "
-    :style="{
-      background: `url(/images/${categoryBackgroundImage}) no-repeat center center fixed; background-size: cover;`,
-    }"
+    :style="`background: url(/images/${categoryBackgroundImage}) no-repeat center center fixed; background-size: cover;`"
   >
     <div
       class="
