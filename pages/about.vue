@@ -20,8 +20,8 @@
         bg-opacity-75 bg-white
         my-4
         text-left
-        md:p-6 md:my-auto
-        lg:w-1/2
+        md:p-6
+        lg:w-2/3
       "
     >
       <h1 class="text-3xl font-bold text-center p-2 md:p-6 lg:text-4xl">
