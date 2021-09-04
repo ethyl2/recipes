@@ -26,6 +26,7 @@
     >
       <div class="py-4 mx-4 md:mx-auto md:w-1/2 md:py-0">
         <img
+          id="featured-img"
           class="w-full h-auto rounded shadow"
           :src="`/images/${recipe.featured_img}`"
           :alt="`${recipe.name}`"
@@ -166,6 +167,15 @@
         Why I Love This Recipe:
       </h3>
       <p slot="body">{{ recipe.notes }}</p>
+      <div slot="footer">
+        <img
+          :src="qrUrl"
+          alt="qr code for page"
+          class="w-16 mx-auto"
+          title="Right-click this QR code to save it. Then you can share it with your
+          friends to easily share this recipe!"
+        />
+      </div>
     </modal>
   </div>
 </template>
@@ -186,6 +196,9 @@ export default {
       return this.$store.state.recipes.all.find(
         (recipe) => recipe.slug === this.currentRecipe
       )
+    },
+    qrUrl() {
+      return `https://api.qrserver.com/v1/create-qr-code/?data=https://heathers-recipes.herokuapp.com/recipes/${this.currentRecipe}`
     },
   },
   methods: {
@@ -228,7 +241,7 @@ export default {
                     ${steps}
                     </ol>
                 </div>
-                </div>
+                <img src="${this.qrUrl}"/>
             </body>
         </html>`
         const body = document.querySelector('body')

@@ -76,9 +76,10 @@
           <nuxt-link class="px-4 hover:font-bold" to="/search"
             >Categories</nuxt-link
           >
-          <nuxt-link class="pl-4 hover:font-bold" to="/submit-recipe"
+          <nuxt-link class="px-4 hover:font-bold" to="/submit-recipe"
             >Add</nuxt-link
           >
+          <nuxt-link class="pl-4 hover:font-bold" to="/about">About</nuxt-link>
         </nav>
         <nav class="flex items-center justify-center space-x-2">
           <a
