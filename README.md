@@ -72,3 +72,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ---
 
 Deploying Nuxt on Heroku: [docs](https://nuxtjs.org/docs/2.x/deployment/heroku-deployment)
+
+---
+
+QR Code Generation API: https://goqr.me/api/doc/create-qr-code/
