@@ -2,11 +2,16 @@
   <div
     itemscope
     itemtype="http://schema.org/Recipe"
-    :style="`background: url(/images/${recipe.bg_img}) no-repeat center center fixed; background-size: cover;`"
+    :style="
+      recipe && recipe.bg_img
+        ? `background: url(/images/${recipe.bg_img}) no-repeat center center fixed; background-size: cover;`
+        : 'background: url(/images/food_bowl.jpg) no-repeat center center fixed; background-size: cover;'
+    "
     class="min-h-screen"
   >
-    <header>
+    <header v-if="recipe">
       <h1
+        v-if="recipe && recipe.name"
         id="recipe-name"
         class="text-3xl text-center font-bold py-8 tracking-wide md:text-6xl"
         :class="[
@@ -16,7 +21,17 @@
         {{ recipe.name }}
       </h1>
     </header>
+    <div v-if="!recipe" class="w-full bg-opacity-90 bg-white p-6">
+      <p class="text-center">
+        Can't find that recipe! See if
+        <nuxt-link class="font-bold hover:underline" to="/"
+          >any others</nuxt-link
+        >
+        sound good to you.
+      </p>
+    </div>
     <div
+      v-else
       class="
         container
         mx-auto
@@ -28,12 +43,14 @@
     >
       <div class="py-4 mx-4 md:mx-auto md:w-1/2 md:py-0">
         <img
+          v-if="recipe && recipe.featured_img"
           id="featured-img"
           class="w-full h-auto rounded shadow"
           :src="`/images/${recipe.featured_img}`"
           :alt="`${recipe.name}`"
         />
         <div
+          v-if="recipe && recipe.categories"
           class="
             hidden
             w-full
@@ -65,6 +82,7 @@
         </div>
       </div>
       <div
+        v-if="recipe && recipe.ingredients"
         class="md:w-1/2 mx-4 md:mx-auto bg-opacity-90 bg-white p-6 rounded mb-6"
       >
         <h2 class="text-2xl font-bold mb-4">Ingredients</h2>
@@ -99,7 +117,10 @@
         <div></div>
       </div>
     </div>
-    <div class="flex items-center justify-center space-x-6 pb-4 md:pb-16">
+    <div
+      v-if="recipe"
+      class="flex items-center justify-center space-x-6 pb-4 md:pb-16"
+    >
       <button
         v-if="recipe.notes"
         id="show-modal"
@@ -148,6 +169,7 @@
     </div>
 
     <div
+      v-if="recipe && recipe.categories"
       class="
         w-full
         flex flex-wrap
@@ -217,7 +239,10 @@
         </div>
       </div>
     </modal>
-    <modal v-if="showShareModal" @close="showShareModal = false">
+    <modal
+      v-if="showShareModal && recipe.ingredients"
+      @close="showShareModal = false"
+    >
       <h3 slot="header" class="font-bold text-xl text-gray-900 text-center">
         Share This Recipe
       </h3>
@@ -270,23 +295,33 @@ export default {
     }
   },
   head() {
-    return {
-      title: `${this.recipe.name} | Favorite Recipes 🍴`,
-      meta: [
-        {
-          name: 'twitter:title',
-          content: `${this.recipe.name} | Favorite Recipes 🍴`,
-        },
-        {
-          name: 'twitter:description ',
-          content: `One of Heather Nuffer's favorite recipes: ${this.recipe.name} 🍴`,
-        },
-        {
-          name: 'twitter:image',
-          content: `https://heathers-recipes.herokuapp.com/images/${this.recipe.featured_img}`,
-        },
-        { name: 'twitter:card', content: 'summary_large_image' },
-      ],
+    if (this.recipe) {
+      return {
+        title: this.recipe.name
+          ? `${this.recipe.name} | Favorite Recipes 🍴`
+          : 'Favorite Recipes 🍴',
+        meta: [
+          {
+            name: 'twitter:title',
+            content: this.recipe.name
+              ? `${this.recipe.name} | Favorite Recipes 🍴`
+              : 'Favorite Recipes 🍴',
+          },
+          {
+            name: 'twitter:description ',
+            content: this.recipe.name
+              ? `One of Heather Nuffer's favorite recipes: ${this.recipe.name} 🍴`
+              : `Heather Nuffer's favorite recipes`,
+          },
+          {
+            name: 'twitter:image',
+            content: this.recipe.featured_image
+              ? `https://heathers-recipes.herokuapp.com/images/${this.recipe.featured_img}`
+              : `https://heathers-recipes.herokuapp.com/images/egg-faces.jpg`,
+          },
+          { name: 'twitter:card', content: 'summary_large_image' },
+        ],
+      }
     }
   },
   computed: {

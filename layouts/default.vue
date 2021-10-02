@@ -10,13 +10,13 @@
         border-b-4 border-white
       "
     >
-      <a href="/" class="rounded p-1 bg-white ml-4 hover:bg-gray-400">
+      <nuxt-link to="/" class="rounded p-1 bg-white ml-4 hover:bg-gray-400">
         <img
           src="/images/fork-and-spoon.png"
           alt="Favorite Recipes Logo"
           class="rounded h-12"
         />
-      </a>
+      </nuxt-link>
       <h1
         class="
           bg-black
@@ -29,13 +29,16 @@
       >
         Favorite Recipes
       </h1>
-      <a href="/" class="rounded p-1 bg-white mr-4 invisible hover:bg-gray-400">
+      <nuxt-link
+        to="/"
+        class="rounded p-1 bg-white mr-4 invisible hover:bg-gray-400"
+      >
         <img
           src="/images/fork-and-spoon.png"
           alt="Favorite Recipes Logo"
           class="rounded h-12"
         />
-      </a>
+      </nuxt-link>
     </header>
     <Nuxt />
     <footer
