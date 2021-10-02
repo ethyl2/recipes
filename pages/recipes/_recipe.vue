@@ -169,7 +169,17 @@
         Why I Love This Recipe:
       </h3>
       <p slot="body">{{ recipe.notes }}</p>
-      <div slot="footer">
+      <div
+        slot="footer"
+        class="
+          flex flex-col
+          items-center
+          justify-center
+          space-y-2
+          divide-y-2
+          w-full
+        "
+      >
         <img
           :src="qrUrl"
           alt="qr code for page"
@@ -177,6 +187,19 @@
           title="Right-click this QR code to save it. Then you can share it with your
           friends to easily share this recipe!"
         />
+        <div class="pt-2">
+          <a
+            href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+            class="twitter-share-button"
+            data-show-count="false"
+            >Share Recipe on Twitter</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
       </div>
     </modal>
   </div>

@@ -358,6 +358,7 @@ export const state = () => ({
     {
       id: 11,
       name: 'Hot Rolls',
+      titleColor: 'black',
       slug: 'hot-rolls',
       categories: ['breads', 'bread-machine'],
       bg_img: 'wheat.jpg',
