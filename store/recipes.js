@@ -929,5 +929,25 @@ export const state = () => ({
       notes:
         'So rich, but so yummy! I like using salted cashews for a bit of saltiness to go with all the sweetness.',
     },
+    {
+      id: 29,
+      name: 'Shamrock Shake',
+      slug: 'shamrock-shake',
+      categories: ['drinks', 'desserts'],
+      bg_img: 'mint.jpg',
+      featured_img: 'shamrock-shake.jpg',
+      ingredients: [
+        '3 c. vanilla ice cream',
+        '1 3/4 c. milk',
+        '1/2 tsp. peppermint extract',
+        'Few drops of green food coloring',
+        'Whipped cream, optional',
+      ],
+      steps: [
+        'Combine in blender.',
+        'Pour into glasses, and top with whipped cream if desired.',
+      ],
+      notes: 'These shakes are a reason to look forward to March, in my house.',
+    },
   ],
 })
