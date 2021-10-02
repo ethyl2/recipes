@@ -900,7 +900,7 @@ export const state = () => ({
       id: 28,
       name: '7 Layer Bars',
       slug: 'seven-layer-bars',
-      categories: ['bars', 'dessert'],
+      categories: ['bars', 'desserts'],
       bg_img: 'chocolate.jpg',
       featured_img: 'seven-layer-bars.jpg',
       ingredients: [

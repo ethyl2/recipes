@@ -193,6 +193,26 @@ export default {
       showModal: false,
     }
   },
+  head() {
+    return {
+      title: `${this.recipe.name} | Favorite Recipes 🍴`,
+      meta: [
+        {
+          name: 'twitter:title',
+          content: `${this.recipe.name} | Favorite Recipes 🍴`,
+        },
+        {
+          name: 'twitter:description ',
+          content: `One of Heather Nuffer's favorite recipes: ${this.recipe.name} 🍴`,
+        },
+        {
+          name: 'twitter:image',
+          content: `https://heathers-recipes.herokuapp.com/images/${this.recipe.featured_img}`,
+        },
+        { name: 'twitter:card', content: 'summary_large_image' },
+      ],
+    }
+  },
   computed: {
     recipe() {
       return this.$store.state.recipes.all.find(
