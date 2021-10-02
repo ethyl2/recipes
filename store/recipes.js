@@ -896,5 +896,37 @@ export const state = () => ({
       notes:
         "This is a recipe from my mom. I remember eating it as a kid. I have no idea where the name 'Lalleanos' comes from!",
     },
+    {
+      id: 28,
+      name: '7 Layer Bars',
+      slug: 'seven-layer-bars',
+      categories: ['bars', 'dessert'],
+      bg_img: 'chocolate.jpg',
+      featured_img: 'seven-layer-bars.jpg',
+      ingredients: [
+        '1/2 c. butter',
+        '1 1/2 c. graham cracker crumbs',
+        '1 c. semi-sweet chocolate chips',
+        '1 c. baking chips, a different flavor, such as butterscotch, milk chocolate, or white',
+        '1 c. chopped walnuts',
+        '1 c. chopped cashews',
+        '1 can (14 oz.) sweetened condensed milk',
+        '1 1/3 c. coconut',
+      ],
+      steps: [
+        'Preheat oven to 350 degrees F.',
+        'Place butter in a 9"x13" pan and stick in oven to melt the butter.',
+        'Swirl the pan to coat the bottom and sides with melted butter.',
+        'Spread the graham cracker crumbs evenly in the bottom of the pan. Press down lightly.',
+        'Add layers of chips and nuts.',
+        'Pour the sweetened condensed milk over everything.',
+        'Sprinkle with coconut.',
+        'Press lightly down on the pan contents.',
+        'Bake until edges are golden brown, around 25 min.',
+        'Enjoy warm or cold, but wait until they are cool before cutting the whole pan into bars.',
+      ],
+      notes:
+        'So rich, but so yummy! I like using salted cashews for a bit of saltiness to go with all the sweetness.',
+    },
   ],
 })
