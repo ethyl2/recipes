@@ -992,7 +992,7 @@ export const state = () => ({
       ],
       steps: [
         'Put hashbrowns, onion, pepper, broth, and cream soup into an instant pot or slow cooker.',
-        'Cook on low slow cooker settig for 7-8 hours or until potatoes are tender.',
+        'Cook on low slow cooker setting for 7-8 hours or until potatoes are tender.',
         'About 1 hr. before serving, cut the cream cheese into small cubes and add them to the mixture.',
         'Mix a few times throughout the hour before serving.',
         `Once the cream cheese is completely mixed in, it's ready to serve.`,
