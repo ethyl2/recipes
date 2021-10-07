@@ -45,7 +45,7 @@
         <img
           v-if="recipe && recipe.featured_img"
           id="featured-img"
-          class="w-full h-auto rounded shadow"
+          class="w-full h-auto rounded shadow mx-auto lg:w-2/3"
           :src="`/images/${recipe.featured_img}`"
           :alt="`${recipe.name}`"
         />
