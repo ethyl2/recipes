@@ -18,14 +18,14 @@
         container
         rounded
         shadow
-        p-4
+        px-4
         w-3/4
         bg-opacity-75 bg-white
         my-4
-        md:my-auto
+        md:my-auto md:p-4
       "
     >
-      <h1 class="text-3xl font-bold text-center p-4 md:pt-12 lg:text-3xl">
+      <h1 class="text-xl font-bold text-center p-4 md:pt-12 lg:text-3xl">
         Welcome to Favorite Recipes
       </h1>
       <div class="flex items-center justify-center space-x-4">
@@ -37,8 +37,9 @@
             border border-black
             rounded
             bg-white bg-opacity-80
-            text-xl
+            text-lg
             mb-2
+            md:text-xl
             hover:bg-black hover:text-white
           "
           title="Search By Category"
@@ -52,8 +53,9 @@
             border border-black
             rounded
             bg-white bg-opacity-80
-            text-xl
+            text-lg
             mb-2
+            md:text-xl
             hover:bg-black hover:text-white
           "
           title="Send Me Your Favorite Recipe"
@@ -80,13 +82,13 @@
             border border-black
             rounded
             bg-white bg-opacity-80
-            text-xl
+            text-sm
             flex
             items-center
             justify-center
             text-center
             mb-2
-            md:m-2
+            md:m-2 md:text-xl
             hover:bg-black hover:text-white
           "
           :to="`recipes/${recipe.slug}`"

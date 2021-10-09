@@ -14,7 +14,7 @@
         <img
           src="/images/fork-and-spoon.png"
           alt="Favorite Recipes Logo"
-          class="rounded h-12"
+          class="rounded h-8 md:h-12"
         />
       </nuxt-link>
       <h1

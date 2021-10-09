@@ -1093,5 +1093,28 @@ export const state = () => ({
       ],
       notes: `Could this qualify as a breakfast item? 😊`,
     },
+    {
+      id: 35,
+      name: `Brigadeiro`,
+      slug: 'brigadeiro',
+      categories: ['candies', 'desserts'],
+      bg_img: 'chocolate-pot.jpg',
+      featured_img: 'brigadeiro.jpg',
+      ingredients: [
+        '1 can (14 oz.) sweetened condensed milk',
+        '1 T. butter',
+        '3 T. cocoa powder',
+        'Chocolate sprinkles',
+      ],
+      steps: [
+        'In a saucepan over medium-low heat, combine milk, butter, and cocoa.',
+        'Stir often and cook until it thickens enough to show the pan bottom during stirring (about 20 min.).',
+        'Pour mixture onto a greased jelly roll pan and let cool to room temperature.',
+        'Grease your hands and roll small amounts of the mixture into balls.',
+        'Roll the balls in sprinkles.',
+        'Place balls into small paper cupcake cups.',
+      ],
+      notes: `A favorite Brazilian treat, and quite easy to make!`,
+    },
   ],
 })
