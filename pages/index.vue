@@ -103,7 +103,15 @@
 export default {
   computed: {
     recipes() {
-      return this.$store.state.recipes.all
+      const recipes = JSON.parse(JSON.stringify(this.$store.state.recipes.all))
+      return this.sortBy('name', recipes)
+      // return this.$store.state.recipes.all
+    },
+  },
+  methods: {
+    sortBy(key, myArray) {
+      myArray.sort((a, b) => (a[key] > b[key] ? 1 : -1))
+      return myArray
     },
   },
 }
