@@ -75,14 +75,21 @@
             divide-x
           "
         >
-          <nuxt-link class="pr-4 hover:font-bold" to="/">Home</nuxt-link>
-          <nuxt-link class="px-4 hover:font-bold" to="/search"
+          <nuxt-link class="pr-2 hover:font-bold sm:pr-4" to="/"
+            >Home</nuxt-link
+          >
+          <nuxt-link class="px-2 hover:font-bold sm:px-4" to="/search"
             >Categories</nuxt-link
           >
-          <nuxt-link class="px-4 hover:font-bold" to="/submit-recipe"
+          <nuxt-link class="px-2 hover:font-bold sm:px-4" to="/submit-recipe"
             >Add</nuxt-link
           >
-          <nuxt-link class="pl-4 hover:font-bold" to="/about">About</nuxt-link>
+          <nuxt-link class="px-2 hover:font-bold sm:px-4" to="/about"
+            >About</nuxt-link
+          >
+          <nuxt-link class="pl-2 hover:font-bold sm:pl-4" to="/songs"
+            >Music</nuxt-link
+          >
         </nav>
         <nav class="flex items-center justify-center space-x-2">
           <a
