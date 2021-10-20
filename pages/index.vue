@@ -105,7 +105,6 @@ export default {
     recipes() {
       const recipes = JSON.parse(JSON.stringify(this.$store.state.recipes.all))
       return this.sortBy('name', recipes)
-      // return this.$store.state.recipes.all
     },
   },
   methods: {
