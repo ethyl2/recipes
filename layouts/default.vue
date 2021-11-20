@@ -88,7 +88,7 @@
             >About</nuxt-link
           >
           <nuxt-link class="pl-2 hover:font-bold sm:pl-4" to="/songs"
-            >Music</nuxt-link
+            >Playlist</nuxt-link
           >
         </nav>
         <nav class="flex items-center justify-center space-x-2">
