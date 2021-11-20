@@ -315,9 +315,7 @@ export default {
           },
           {
             name: 'twitter:image',
-            content: this.recipe.featured_image
-              ? `https://heathers-recipes.herokuapp.com/images/${this.recipe.featured_img}`
-              : `https://heathers-recipes.herokuapp.com/images/egg-faces.jpg`,
+            content: `https://heathers-recipes.herokuapp.com/images/${this.recipe.featured_img}`,
           },
           { name: 'twitter:card', content: 'summary_large_image' },
         ],
