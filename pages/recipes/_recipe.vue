@@ -323,7 +323,7 @@ export default {
           {
             hid: 'og:url',
             property: 'og:url',
-            content: `https://heathers-recipes.herokuapp.com/${this.recipe.slug}`,
+            content: `https://heathers-recipes.herokuapp.com/recipes/${this.recipe.slug}`,
           },
           {
             hid: 'og:title',
