@@ -318,6 +318,34 @@ export default {
             content: `https://heathers-recipes.herokuapp.com/images/${this.recipe.featured_img}`,
           },
           { name: 'twitter:card', content: 'summary_large_image' },
+          { property: 'og:site_name', content: 'Favorite Recipes' },
+          { hid: 'og:type', property: 'og:type', content: 'website' },
+          {
+            hid: 'og:url',
+            property: 'og:url',
+            content: `https://heathers-recipes.herokuapp.com/${this.recipe.slug}`,
+          },
+          {
+            hid: 'og:title',
+            property: 'og:title',
+            content: this.recipe.name
+              ? `${this.recipe.name} | Favorite Recipes 🍴`
+              : 'Favorite Recipes 🍴',
+          },
+          {
+            hid: 'og:description',
+            property: 'og:description',
+            content: this.recipe.name
+              ? `One of Heather Nuffer's favorite recipes: ${this.recipe.name} 🍴`
+              : `Heather Nuffer's favorite recipes`,
+          },
+          {
+            hid: 'og:image',
+            property: 'og:image',
+            content: `https://heathers-recipes.herokuapp.com/images/${this.recipe.featured_img}`,
+          },
+          { property: 'og:image:width', content: '740' },
+          { property: 'og:image:height', content: '300' },
         ],
       }
     }
