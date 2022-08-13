@@ -1,6 +1,9 @@
 # favorite recipes
 
-Deployed at https://heathers-recipes.herokuapp.com/
+Current Deployment: https://recipes-heathernuffer.vercel.app/
+
+Originally Deployed at https://heathers-recipes.herokuapp.com/
+
 
 <img
   src="https://raw.githubusercontent.com/ethyl2/recipes/main/static/images/fork-and-spoon.png"
