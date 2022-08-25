@@ -1484,7 +1484,7 @@ export const state = () => ({
         'Juice the lemons. Make sure you have just about a half cup of juice.',
         'Add the eggs yolks and sugar/zest mixture to the top part of the double boiler/the metal bowl.',
         'Whisk together.',
-        'Gradually add the lemon juice.',
+        'Gradually add the lemon juice while whisking.',
         'Keep whisking until the mixture thickens. This might take a bit; be patient.',
         'Remove from heat.',
         'Cube the butter and add to mixture. Stir until melted.',
