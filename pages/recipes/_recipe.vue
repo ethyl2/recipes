@@ -315,7 +315,7 @@ export default {
           },
           {
             name: 'twitter:image',
-            content: `https://heathers-recipes.herokuapp.com/images/${this.recipe.featured_img}`,
+            content: `https://recipes-heathernuffer.vercel.app/images/${this.recipe.featured_img}`,
           },
           { name: 'twitter:card', content: 'summary_large_image' },
           { property: 'og:site_name', content: 'Favorite Recipes' },
@@ -323,7 +323,7 @@ export default {
           {
             hid: 'og:url',
             property: 'og:url',
-            content: `https://heathers-recipes.herokuapp.com/recipes/${this.recipe.slug}`,
+            content: `https://recipes-heathernuffer.vercel.app/recipes/${this.recipe.slug}`,
           },
           {
             hid: 'og:title',
@@ -342,7 +342,7 @@ export default {
           {
             hid: 'og:image',
             property: 'og:image',
-            content: `https://heathers-recipes.herokuapp.com/images/${this.recipe.featured_img}`,
+            content: `https://recipes-heathernuffer.vercel.app/images/${this.recipe.featured_img}`,
           },
           { property: 'og:image:width', content: '740' },
           { property: 'og:image:height', content: '300' },
@@ -357,7 +357,7 @@ export default {
       )
     },
     qrUrl() {
-      return `https://api.qrserver.com/v1/create-qr-code/?data=https://heathers-recipes.herokuapp.com/recipes/${this.currentRecipe}`
+      return `https://api.qrserver.com/v1/create-qr-code/?data=https://recipes-heathernuffer.vercel.app/recipes/${this.currentRecipe}`
     },
   },
   methods: {
