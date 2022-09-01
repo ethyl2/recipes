@@ -13,10 +13,17 @@
       <h1
         v-if="recipe && recipe.name"
         id="recipe-name"
-        class="text-3xl text-center font-bold py-8 tracking-wide md:text-6xl"
-        :class="[
-          recipe.titleColor ? `text-${recipe.titleColor}` : 'text-white',
-        ]"
+        class="
+          black
+          bg-white bg-opacity-50
+          mb-2
+          md:mb-4
+          text-3xl text-center
+          font-bold
+          py-8
+          tracking-wide
+          md:text-6xl
+        "
       >
         {{ recipe.name }}
       </h1>
