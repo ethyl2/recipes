@@ -412,10 +412,10 @@ export const state = () => ({
       ingredients: [
         '12 oz. uncooked elbow macaroni or other shaped pasta',
         '1 c. raw cashews',
-        '160 g (2 med.) raw carrots, steamed, roasted, or boiled (10 min.)',
+        '160 g (about 5 1/2 ounces or 2 med.) raw carrots, steamed, roasted, or boiled (10 min.)',
         '1/2 c. nutritional yeast',
         '2 tsp. white vinegar',
-        '1 c. water',
+        '1 1/4 c. water',
         '1 T. + 1 tsp. buttery spread (opt.)',
         '2 tsp. salt',
         '1/2 tsp. onion powder',
@@ -428,6 +428,8 @@ export const state = () => ({
         `Put everything, except pasta, in a blender and blend until completely smooth.`,
         `Add blended sauce to drained pasta.`,
       ],
+      notes:
+        "Lately I've really liked drizzling some barbecue sauce on top of my serving. You might want to try it!",
     },
     {
       id: 13,
@@ -1445,7 +1447,7 @@ export const state = () => ({
         '2 c. sugar',
         '2 3-oz. boxes of vanilla pudding mix, or 3/4 c. vanilla pudding mix',
         '1 tsp. baking soda',
-        '1 tsp. cinnamon',
+        '1/2 T. cinnamon',
         '1/4 tsp. cloves',
         '1/4 tsp. nutmeg',
         '1/4 tsp. cardamom',
@@ -1460,7 +1462,7 @@ export const state = () => ({
         'Pour batter into pans.',
         'Bake for 50-55 min.',
       ],
-      notes: `When our local bakery starts offering pumpkin bread, it's a sure, highly-anticipated sign that it's fall. If you make your own, you can enjoy pumpkin bread anytime.`,
+      notes: `When our local bakery starts offering pumpkin bread, it's a sure, highly-anticipated sign that it's fall. If you make your own, you can enjoy pumpkin bread anytime! Adjust the spices according to your taste -- I generally add a bit more than what is here, depending on my mood.`,
     },
     {
       id: 43,

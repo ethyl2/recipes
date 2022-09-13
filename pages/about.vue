@@ -55,21 +55,53 @@
             </li>
           </ul>
         </section>
-        <section class="flex flex-col space-y-2">
-          <h2 class="font-bold text-lg">What I really want to see:</h2>
-          <ul class="list-disc list-inside">
-            <li>the ingredients</li>
-            <li>the steps</li>
-            <li>
-              why the recipe is worth making and what makes it special (written
-              in a concise way, not a billion paragraphs)
-            </li>
-          </ul>
-        </section>
-        <p>
-          So here is my ongoing project to make a less stressful recipe site.
-        </p>
-        <p class="italic">Happy recipe exploration and cooking!</p>
+        <div
+          class="
+            flex flex-col-reverse
+            items-start
+            justify-between
+            w-full
+            md:flex-row md:space-x-2
+          "
+        >
+          <section class="flex flex-col space-y-2">
+            <h2 class="font-bold text-lg">What I really want to see:</h2>
+            <ul class="list-disc list-inside">
+              <li>the ingredients</li>
+              <li>the steps</li>
+              <li>
+                why the recipe is worth making and what makes it special
+                (written in a concise way, not a billion paragraphs)
+              </li>
+            </ul>
+            <p>
+              So here is my ongoing project to make a less stressful recipe
+              site.
+            </p>
+          </section>
+          <img
+            class="w-2/3 sm:w-1/2 mx-auto mb-4 md:mb-0 md:w-1/5 rounded"
+            src="images/yellow-food.jpg"
+            alt="yellow food"
+          />
+        </div>
+
+        <div class="w-full flex items-center justify-start space-x-6">
+          <img
+            src="images/heather_nuffer.jpg"
+            alt="Heather Nuffer"
+            class="
+              rounded-full
+              filter
+              sepia
+              brightness-90
+              w-20
+              h-20
+              md:w-32 md:h-32
+            "
+          />
+          <p class="italic">Happy recipe exploration and cooking!</p>
+        </div>
       </div>
     </main>
   </div>
