@@ -1634,5 +1634,31 @@ export const state = () => ({
       },
       notes: `Sometimes I add chocolate chips and forgo the frosting. Other times, I'm in the mood for frosting and all of its richness!`,
     },
+    {
+      id: 47,
+      name: 'White Bread with the Bread Machine',
+      slug: 'white-bread',
+      categories: ['breads', 'bread-machine'],
+      bg_img: 'wheat.jpg',
+      featured_img: 'white-bread.jpg',
+      ingredients: [
+        '1 1/2 c. water',
+        '2 T. butter',
+        '1 3/4 tsp. salt',
+        '2 T. dry milk',
+        '2 T. sugar',
+        '4 c. flour',
+        '2 T. vital wheat gluten',
+        '1 T. ground flax, optional',
+        '1 tsp. yeast',
+      ],
+      steps: [
+        `Add all ingredients, except for yeast, to a bread machine's pan in the order given.`,
+        'Make a well in the flour and add the yeast.',
+        'Use the basic white bread setting.',
+      ],
+      notes: `This works great with the delayed start setting, so you can have fresh hot bread in the morning. This recipe brings back fond memories of being newlyweds and perfecting the recipe together. We would make a loaf
+        every Sunday morning and bring it to church, so they could use it for the sacramental bread.`,
+    },
   ],
 })
