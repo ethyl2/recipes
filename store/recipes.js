@@ -1733,5 +1733,28 @@ export const state = () => ({
       ],
       notes: `Great to have on hand for seasoning all sorts of things!`,
     },
+    {
+      id: 49,
+      name: `Pizza Sauce`,
+      slug: 'pizza-sauce',
+      titleColor: 'black bg-white bg-opacity-50 mb-2 md:mb-4',
+      categories: ['sauces'],
+      bg_img: 'basil.jpg',
+      featured_img: 'pizza-with-basil.jpg',
+      ingredients: [
+        '1 (14.5 oz.) can diced tomatoes, drained',
+        '4 cloves garlic, minced (2 tsp.)',
+        '2 T. olive oil',
+        '1 tsp. sugar',
+        '1 tsp. balsamic vinegar',
+        '3/4 tsp. salt',
+        '1/2 tsp. pepper',
+        '1 tsp. Italian seasoning',
+      ],
+      steps: [
+        'Combine all ingredients in a blender or food processor and blend until smooth.',
+      ],
+      notes: `I love to use this to make pizza toast: Toast a bread slice or a roll half, and then spread on some sauce and top with cheese and/or veggies. Broil until the cheese is melted.`,
+    },
   ],
 })

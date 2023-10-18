@@ -1,14 +1,7 @@
 <template>
   <div>
     <header
-      class="
-        flex flex-row
-        items-center
-        justify-between
-        bg-black
-        py-2
-        border-b-4 border-white
-      "
+      class="flex flex-row items-center justify-between bg-black py-2 border-b-4 border-white"
     >
       <nuxt-link to="/" class="rounded p-1 bg-white ml-4 hover:bg-gray-400">
         <img
@@ -18,14 +11,7 @@
         />
       </nuxt-link>
       <h1
-        class="
-          bg-black
-          text-white
-          font-bold
-          py-4
-          text-center text-xl
-          md:text-4xl
-        "
+        class="bg-black text-white font-bold py-4 text-center text-xl md:text-4xl"
       >
         Favorite Recipes
       </h1>
@@ -42,38 +28,13 @@
     </header>
     <Nuxt />
     <footer
-      class="
-        bg-black
-        border-t-4 border-white
-        mx-0
-        mb-0
-        text-center
-        w-full
-        flex flex-col
-        items-center
-        justify-center
-        py-4
-        space-y-2
-        text-sm
-      "
+      class="bg-black border-t-4 border-white mx-0 mb-0 text-center w-full flex flex-col items-center justify-center py-4 space-y-2 text-sm"
     >
       <div
-        class="
-          flex flex-col
-          items-center
-          w-full
-          md:flex-row md:justify-between md:container
-        "
+        class="flex flex-col items-center w-full md:flex-row md:justify-between md:container"
       >
         <nav
-          class="
-            flex flex-row
-            items-center
-            justify-center
-            text-white
-            py-2
-            divide-x
-          "
+          class="flex flex-row items-center justify-center text-white py-2 divide-x"
         >
           <nuxt-link class="pr-2 hover:font-bold sm:pr-4" to="/"
             >Home</nuxt-link
@@ -88,7 +49,7 @@
             >About</nuxt-link
           >
           <nuxt-link class="pl-2 hover:font-bold sm:pl-4" to="/songs"
-            >Playlist</nuxt-link
+            >Playlists</nuxt-link
           >
         </nav>
         <nav class="flex items-center justify-center space-x-2">
@@ -179,14 +140,7 @@
         </nav>
       </div>
       <div
-        class="
-          w-full
-          text-center text-white
-          flex flex-col
-          items-center
-          justify-center
-          md:flex-row md:space-x-1
-        "
+        class="w-full text-center text-white flex flex-col items-center justify-center md:flex-row md:space-x-1"
       >
         <p>Copyright © {{ currentYear }} Heather Nuffer.</p>
         <p>All rights reserved.</p>
