@@ -1852,6 +1852,7 @@ export const state = () => ({
         '1/4 c. diced black olives',
         '1/4 c. diced mushrooms',
         '1/4 c. canned chilis, drained',
+        '1/4 c. fresh diced tomatoes',
         'Other diced veggies as desired',
         '1 c. shredded mozzarella cheese',
         '1 c. shredded cheddar cheese',
