@@ -394,7 +394,7 @@ export const state = () => ({
         'For cloverleaf rolls, take each piece and make 3 balls with it, and place them together in a cup of a greased muffin tin.',
         'For twists, roll each piece into a 10-in. rope. Fold the rope in half and twist two or three times, holding both ends. Pinch the rope ends to seal.',
         'For rosettes, roll each piece into a 10-in. rope. Tie a loose knot in the center of the rope. Bring the bottom end up and tuck it into the center of the roll; wrap the top end around and tuck under the roll.',
-        'For twists, roll each piece into a 10-in. rope. Fold the rope in half and twist two or three times, holding both ends. Pinch the rope ends to seal.',
+        'For breadsticks, roll out into a rectangle and cut into strips. Twist each strip if you\' like or just leave them straight.',
         'If desired, brush with melted butter or egg wash.',
         'If desired, add other toppings, like seeds or breadstick toppings.',
         'Cover and allow to rise.',
