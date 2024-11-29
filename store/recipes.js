@@ -1177,7 +1177,7 @@ export const state = () => ({
         'Press crumbs in a pie tin.',
         'Bake for 10 min.',
         'Let the crust cool.',
-        'Cream together the the peanut butter, 1 c. sugar, and vanilla.',
+        'Cream together the the cream cheese, peanut butter, 1 c. sugar, and vanilla.',
         'Whip the cream and fold it into the peanut butter mixture.',
         'Pour it all into the crust and put in the fridge to cool.',
         'For the topping, combine the milk chocolate and oil.',
