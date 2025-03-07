@@ -1979,7 +1979,7 @@ export const state = () => ({
         'Spoon the mixture over the hummus.',
         'Serve with pita chips or fresh veggies.',
       ],
-      notes: `This is a kitchen sink type of recipe. You can add or subtract ingredients as you like!`,
+      notes: `This is a kitchen sink type of recipe. You can add or subtract ingredients as you like! Add nuts, seeds, herbs, other veggies, etc.`,
     },
   ],
 })
