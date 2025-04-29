@@ -1991,7 +1991,7 @@ export const state = () => ({
       featured_img: 'bang-bang-shrimp.jpg',
       ingredients: [
         '1 can coconut milk',
-        '1/2 bottle sweet chili sauce',
+        '1/2 large bottle sweet chili sauce',
         '1/4 c. lime juice',
         '1/2 T. red chili flakes, or to taste',
         'Salt and pepper to taste',
@@ -2004,7 +2004,7 @@ export const state = () => ({
         'Heat about 2 T. oil in a large skillet over medium-high heat.',
         'Bring water to a boil in a large pot.',
         'Once the water is boiling, add the pasta and cook according to package directions.',
-        'In a saucepan, combine the coconut milk, sweet chili sauce, lime juice, red chili flakes, salt and pepper.',
+        'In a saucepan, combine the coconut milk and sweet chili sauce (use equal amounts of each). Add lime juice, red chili flakes, salt and pepper.',
         'Put cornstarch in a gallon-sized bag and add the chicken/shrimp/tofu, in batches.',
         'Shake to coat.',
         'Add the chicken/shrimp/tofu to the hot oil and cook in batches until golden brown and cooked through, about 5-7 min.  Add more oil as needed.',
