@@ -1,6 +1,6 @@
 # favorite recipes
 
-Current Deployment: https://recipes-heathernuffer.vercel.app/
+Current Deployment: https://www.heathers-fav-recipes.org/ and https://recipes-heathernuffer.vercel.app/
 
 Originally Deployed at https://heathers-recipes.herokuapp.com/
 
