@@ -2066,7 +2066,7 @@ export const state = () => ({
       steps: [
         'Preheat oven to 350 degrees F.',
         'Combine sugar and flour.',
-        'Add milk and then the melted butter.',
+        'Add milk and then the melted butter and vanilla.',
         'Pour batter into a greased 9x9 inch baking dish.',
         'Sprinkle blackberries evenly over the batter.',
         'Sprinkle about a 1/4 c. of sugar over the top.',
