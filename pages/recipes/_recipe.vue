@@ -13,17 +13,7 @@
       <h1
         v-if="recipe && recipe.name"
         id="recipe-name"
-        class="
-          black
-          bg-white bg-opacity-50
-          mb-2
-          md:mb-4
-          text-3xl text-center
-          font-bold
-          py-8
-          tracking-wide
-          md:text-6xl
-        "
+        class="black bg-white bg-opacity-50 mb-2 md:mb-4 text-3xl text-center font-bold py-8 tracking-wide md:text-6xl"
       >
         {{ recipe.name }}
       </h1>
@@ -39,14 +29,7 @@
     </div>
     <div
       v-else
-      class="
-        container
-        mx-auto
-        flex flex-col
-        pb-4
-        items-start
-        md:flex-row md:space-x-4 md:pb-12
-      "
+      class="container mx-auto flex flex-col pb-4 items-start md:flex-row md:space-x-4 md:pb-12"
     >
       <div class="py-4 mx-4 md:mx-auto md:w-1/2 md:py-0">
         <img
@@ -58,31 +41,13 @@
         />
         <div
           v-if="recipe && recipe.categories"
-          class="
-            hidden
-            w-full
-            flex-wrap
-            items-center
-            justify-center
-            space-x-2
-            pt-4
-            md:flex
-          "
+          class="hidden w-full flex-wrap items-center justify-center space-x-2 pt-4 md:flex"
         >
           <nuxt-link
             v-for="category in recipe.categories"
             :key="category"
             :to="`/category/${category}`"
-            class="
-              bg-gray-600 bg-opacity-75
-              text-white
-              rounded-full
-              px-2
-              py-1
-              font-bold
-              shadow
-              hover:bg-white hover:text-black
-            "
+            class="bg-gray-600 bg-opacity-75 text-white rounded-full px-2 py-1 font-bold shadow hover:bg-white hover:text-black"
           >
             {{ category.split('-').join(' ') }}
           </nuxt-link>
@@ -111,6 +76,22 @@
                 {{ ingredient }}
               </li>
             </ul>
+            <div v-if="recipe.subRecipe.steps" class="mt-4 max-w-sm">
+              <h4 id="subrecipe-steps-name" class="text-md font-bold mb-2">
+                Directions for {{ recipe.subRecipe.name }}
+              </h4>
+              <ol
+                id="subrecipe-steps"
+                class="list-decimal list-inside font-medium space-y-2"
+              >
+                <li
+                  v-for="(step, index) in recipe.subRecipe.steps"
+                  :key="`subRecipe-step-${index}`"
+                >
+                  {{ step }}
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
         <div>
@@ -131,43 +112,19 @@
       <button
         v-if="recipe.notes"
         id="show-modal"
-        class="
-          text-center
-          bg-white
-          rounded
-          px-3
-          py-2
-          font-bold
-          hover:bg-black hover:text-white
-        "
+        class="text-center bg-white rounded px-3 py-2 font-bold hover:bg-black hover:text-white"
         @click="showModal = true"
       >
         Notes
       </button>
       <button
-        class="
-          text-center
-          bg-white
-          rounded
-          px-3
-          py-2
-          font-bold
-          hover:bg-black hover:text-white
-        "
+        class="text-center bg-white rounded px-3 py-2 font-bold hover:bg-black hover:text-white"
         @click="printPage"
       >
         Print Recipe
       </button>
       <button
-        class="
-          text-center
-          bg-white
-          rounded
-          px-3
-          py-2
-          font-bold
-          hover:bg-black hover:text-white
-        "
+        class="text-center bg-white rounded px-3 py-2 font-bold hover:bg-black hover:text-white"
         type="button"
         @click="showShareModal = true"
       >
@@ -177,32 +134,13 @@
 
     <div
       v-if="recipe && recipe.categories"
-      class="
-        w-full
-        flex flex-wrap
-        items-center
-        justify-center
-        space-x-2
-        py-4
-        border-t-4 border-white
-        bg-gray-400 bg-opacity-50
-        md:hidden
-      "
+      class="w-full flex flex-wrap items-center justify-center space-x-2 py-4 border-t-4 border-white bg-gray-400 bg-opacity-50 md:hidden"
     >
       <nuxt-link
         v-for="category in recipe.categories"
         :key="category"
         :to="`/category/${category}`"
-        class="
-          bg-black
-          text-white
-          rounded-full
-          px-2
-          py-1
-          font-bold
-          shadow
-          hover:bg-white hover:text-black
-        "
+        class="bg-black text-white rounded-full px-2 py-1 font-bold shadow hover:bg-white hover:text-black"
       >
         {{ category.split('-').join(' ') }}
       </nuxt-link>
@@ -215,14 +153,7 @@
       <p slot="body">{{ recipe.notes }}</p>
       <div
         slot="footer"
-        class="
-          flex flex-col
-          items-center
-          justify-center
-          space-y-2
-          divide-y-2
-          w-full
-        "
+        class="flex flex-col items-center justify-center space-y-2 divide-y-2 w-full"
       >
         <img
           :src="qrUrl"
@@ -255,14 +186,7 @@
       </h3>
       <div
         slot="body"
-        class="
-          flex flex-col
-          items-center
-          justify-center
-          space-y-2
-          divide-y-2
-          w-full
-        "
+        class="flex flex-col items-center justify-center space-y-2 divide-y-2 w-full"
       >
         <img
           :src="qrUrl"
